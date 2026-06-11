@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+	margin: 0;
+ 	background-color: #2d2c2a;
+}
+
+/* Styling for the main header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5rem;
+	padding: .5rem;
+	background: #222120;
+	border-style: solid;
+	border-right: none;
+	border-left:none;
+	border-color:#D1a054;
+}
+
+.header-logo{
+	height: 100px;
+	align-self: center;
+}
+
+.header-title {
+	display: flex;
+	overflow: hidden;
+	text-decoration: none;
+	color: #D1a054;
+	font-size: 7rem;
+	transition: color 150ms;
+}
+
+.header-title:hover{
+	color: #a47d42
+}
+
+/* Styling for the main page container */
+.pages {
+	display: flex;
+	flex-direction: column;
+	margin: 2rem;
+	border-color: rgba(209, 160, 84, .50);
+	border-style: dotted;
+	border-right: none;
+	border-left: none;
+}
+
+.page-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem;
+	justify-content: center;
+}
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.page-thumbnail{
+	position: relative;
+	display: flex;
+	width: fit-content;
+	height: 400px;
+	width: 300px;
+		border-radius: 1em;
+
+}
+
+.thumbnail-image{
+	object-fit: cover;
+    width: 100%;
+	height: 100%;
+    background-color: #aaa;
+	transition: filter 0.2s;
+}
+
+.page-title{
+	position: absolute;
+	background-color:#000000;
+    color: white;
+    font-size: 4rem;
+	opacity: 0;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	transition: opacity 0.2s ease;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.page-container:hover .thumbnail-image{
+	filter: brightness(70%);
+	filter:grayscale(100%)
+}
+
+.page-container:hover .page-title{
+	opacity: 1;
+}
+
+/* Styling for Page Footer*/
+.footer{
+	margin-bottom: .375rem;
+	margin-top: .375rem;
+	text-align: center;
+	color:#a47d42;
+	font-size: 0.75rem;
+	padding: 0 .0625rem .0625rem .3125rem;
+}
