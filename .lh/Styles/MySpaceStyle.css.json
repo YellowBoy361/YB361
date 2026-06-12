@@ -1,0 +1,50 @@
+{
+    "sourceFile": "Styles/MySpaceStyle.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1781223001018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1781223054556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,8 +90,13 @@\n .slimeball{\r\n     height: 300px;\r\n }\r\n \r\n+.private-notification{\r\n+    border-style: solid;\r\n+    border-width: 10px;\r\n+}\r\n+\r\n /* Styling for Page Footer*/\r\n .footer{\r\n \tmargin-bottom: .375rem;\r\n \tmargin-top: .375rem;\r\n"
+                },
+                {
+                    "date": 1781223073625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,10 @@\n }\r\n \r\n .private-notification{\r\n     border-style: solid;\r\n-    border-width: 10px;\r\n+    border-width: 5px;\r\n+    border-color: #000000;\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781223084522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,9 @@\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 5px;\r\n     border-color: #000000;\r\n+    padding: 1rem;\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781223100278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,10 @@\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 5px;\r\n     border-color: #000000;\r\n-    padding: 1rem;\r\n+    padding: .25rem;\r\n+    word-wrap: normal;\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781223118732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,12 @@\n     padding: .25rem;\r\n     word-wrap: normal;\r\n }\r\n \r\n+.private-text{\r\n+    font-style:bold;\r\n+}\r\n+\r\n /* Styling for Page Footer*/\r\n .footer{\r\n \tmargin-bottom: .375rem;\r\n \tmargin-top: .375rem;\r\n"
+                },
+                {
+                    "date": 1781223133854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n     word-wrap: normal;\r\n }\r\n \r\n .private-text{\r\n-    font-style:bold;\r\n+    font-style:oblique;\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781223148200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n     word-wrap: normal;\r\n }\r\n \r\n .private-text{\r\n-    font-style:oblique;\r\n+    font-weight: bold;\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781223203237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,12 +96,14 @@\n     border-width: 5px;\r\n     border-color: #000000;\r\n     padding: .25rem;\r\n     word-wrap: normal;\r\n+    width: 10 rem;\r\n }\r\n \r\n .private-text{\r\n-    font-weight: bold;\r\n+    font-weight: bolder;\r\n+\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                }
+            ],
+            "date": 1781223001018,
+            "name": "Commit-0",
+            "content": "*, *::before, *::after {\r\n    box-sizing: border-box;\r\n    font-family: 'Veranda', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n}\r\n\r\nbody {\r\n\tmargin: 0;\r\n \tbackground-color: rgb(229, 229, 229)\r\n}\r\n\r\n/* Styling for the top header */\r\n.top-header{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: flex-end;\r\n    background-color: rgba(0, 47, 155);\r\n    margin: 0 15rem 0 15rem;\r\n    height: 10rem;\r\n}\r\n\r\n#options{\r\n    margin: .5rem 2rem 0.5rem 1rem;\r\n    border-radius: .3rem;\r\n}\r\n\r\n.search-bar{\r\n    display: flex;\r\n    align-items: flex-end;\r\n    flex-direction: row;\r\n    width: 100%;\r\n    margin: .5rem 2rem 0.5rem 1rem;\r\n}\r\n\r\n.search-input{\r\n    border-radius: .3rem;\r\n    width: 100%;\r\n    height: 30px;\r\n}\r\n\r\n#search-select{\r\n    border-radius: .3rem;\r\n    width: 5rem;\r\n    height: 25px;\r\n    margin: 0 .2rem;\r\n}\r\n\r\n.search-btn{\r\n    height: 25px;\r\n    margin: 0 .2rem;\r\n}\r\n\r\n.search-btn{\r\n    border: 1px solid #777;\r\n    background-color: #f8f8f8;\r\n    border-radius: .3rem;\r\n    cursor: pointer;\r\n}\r\n\r\n.powered-by-google{\r\n    max-height: 30px;\r\n}\r\n\r\n/* Styling for the Bottom Header */\r\n.bottom-header{\r\n    display: flex;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    background-color: rgba(99, 152, 203);\r\n    margin: 0 15rem 0 15rem;\r\n    padding: 0.1rem 3rem 0.1rem 3rem;\r\n    height: 1.75rem;\r\n}\r\n\r\n.banner-buttons{\r\n    text-decoration: none;\r\n    color: #f8f8f8;\r\n    font-size: 1rem;\r\n}\r\n\r\n/* Styling for the actual page. */\r\n.profile{\r\n    display: flex;\r\n    align-items: center;\r\n    background-color: rgb(255, 255, 255);\r\n    margin: 0 15rem 0 15rem;\r\n    padding: 1rem 3rem 1rem 3rem;\r\n    height: 100%;\r\n}\r\n\r\n.slimeball{\r\n    height: 300px;\r\n}\r\n\r\n/* Styling for Page Footer*/\r\n.footer{\r\n\tmargin-bottom: .375rem;\r\n\tmargin-top: .375rem;\r\n\ttext-align: center;\r\n\tcolor: #000000;\r\n\tfont-size: 0.75rem;\r\n\tpadding: 0 .0625rem .0625rem .3125rem;\r\n}"
+        }
+    ]
+}

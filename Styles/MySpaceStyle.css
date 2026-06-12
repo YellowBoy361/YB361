@@ -91,6 +91,20 @@ body {
     height: 300px;
 }
 
+.private-notification{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
+    padding: .25rem;
+    word-wrap: normal;
+    width: 10rem;
+}
+
+.private-text{
+    font-weight: bolder;
+
+}
+
 /* Styling for Page Footer*/
 .footer{
 	margin-bottom: .375rem;
