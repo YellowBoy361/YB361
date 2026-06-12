@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     background-color: rgba(0, 47, 155);
-    margin: 0 15rem 0 15rem;
+    margin: 0 20rem 0 20rem;
     height: 10rem;
 }
 
@@ -66,7 +66,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: rgba(99, 152, 203);
-    margin: 0 15rem 0 15rem;
+    margin: 0 20rem 0 20rem;
     padding: 0.1rem 3rem 0.1rem 3rem;
     height: 1.75rem;
 }
@@ -82,18 +82,20 @@ body {
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    margin: 0 15rem 0 15rem;
+    margin: 0 20rem 0 20rem;
     padding: 1rem 3rem 1rem 3rem;
     height: 100%;
 }
 
+/* Left Profile */
 .slimeball{
-    height: 300px;
+    height: 100rem;
 }
 
+/* Right Profile */
 .private-notification{
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #000000;
     padding: .25rem;
     word-wrap: normal;
@@ -102,10 +104,23 @@ body {
 
 .private-text{
     font-weight: bolder;
-
 }
 
 /* Styling for Page Footer*/
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-buttons{
+    color: rgba(0, 47, 155);
+    padding: 5px;
+    font-size: 1rem;
+}
+
 .footer{
 	margin-bottom: .375rem;
 	margin-top: .375rem;

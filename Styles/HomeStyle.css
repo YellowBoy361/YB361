@@ -11,9 +11,11 @@ body {
 /* Styling for the main header */
 .header {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	margin: 0.5rem;
-	padding: .5rem;
+	padding: 0 1rem 0 1rem;
 	background: #222120;
 	border-style: solid;
 	border-right: none;
@@ -22,8 +24,7 @@ body {
 }
 
 .header-logo{
-	height: 100px;
-	align-self: center;
+	height: 5rem;
 }
 
 .header-title {
@@ -72,7 +73,7 @@ body {
 	width: fit-content;
 	height: 400px;
 	width: 300px;
-		border-radius: 1em;
+	border-radius: 1em;
 
 }
 
