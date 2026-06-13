@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 43,
             "patches": [
                 {
                     "date": 1781223001018,
@@ -40,6 +40,146 @@
                 {
                     "date": 1781223203237,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,12 +96,14 @@\n     border-width: 5px;\r\n     border-color: #000000;\r\n     padding: .25rem;\r\n     word-wrap: normal;\r\n+    width: 10 rem;\r\n }\r\n \r\n .private-text{\r\n-    font-weight: bold;\r\n+    font-weight: bolder;\r\n+\r\n }\r\n \r\n /* Styling for Page Footer*/\r\n .footer{\r\n"
+                },
+                {
+                    "date": 1781306916226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     background-color: rgba(0, 47, 155);\r\n-    margin: 0 15rem 0 15rem;\r\n+    margin: 0 20rem 0 20rem;\r\n     height: 10rem;\r\n }\r\n \r\n #options{\r\n@@ -65,9 +65,9 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     align-items: center;\r\n     background-color: rgba(99, 152, 203);\r\n-    margin: 0 15rem 0 15rem;\r\n+    margin: 0 20rem 0 20rem;\r\n     padding: 0.1rem 3rem 0.1rem 3rem;\r\n     height: 1.75rem;\r\n }\r\n \r\n@@ -81,32 +81,47 @@\n .profile{\r\n     display: flex;\r\n     align-items: center;\r\n     background-color: rgb(255, 255, 255);\r\n-    margin: 0 15rem 0 15rem;\r\n+    margin: 0 20rem 0 20rem;\r\n     padding: 1rem 3rem 1rem 3rem;\r\n     height: 100%;\r\n }\r\n \r\n+/* Left Profile */\r\n .slimeball{\r\n-    height: 300px;\r\n+    height: 10rem;\r\n }\r\n \r\n+/* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n-    border-width: 5px;\r\n+    border-width: 3px;\r\n     border-color: #000000;\r\n     padding: .25rem;\r\n     word-wrap: normal;\r\n-    width: 10 rem;\r\n+    width: 10rem;\r\n }\r\n \r\n .private-text{\r\n     font-weight: bolder;\r\n+}\r\n \r\n+/* Styling for Page Footer*/\r\n+.top-footer{\r\n+    display: flex;\r\n+    flex-direction: row;\r\n+    align-items: center;\r\n+    justify-content: center;\r\n+    margin-bottom: 30px;\r\n }\r\n \r\n-/* Styling for Page Footer*/\r\n+.footer-buttons{\r\n+    color: rgba(0, 47, 155);\r\n+    padding: 5px;\r\n+    font-size: 1rem;\r\n+}\r\n+\r\n .footer{\r\n \tmargin-bottom: .375rem;\r\n \tmargin-top: .375rem;\r\n \ttext-align: center;\r\n"
+                },
+                {
+                    "date": 1781306922046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,9 @@\n }\r\n \r\n /* Left Profile */\r\n .slimeball{\r\n-    height: 10rem;\r\n+    height: 1rem;\r\n }\r\n \r\n /* Right Profile */\r\n .private-notification{\r\n"
+                },
+                {
+                    "date": 1781306950494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,10 @@\n }\r\n \r\n /* Left Profile */\r\n .slimeball{\r\n-    height: 1rem;\r\n+    max-height: 10rem;\r\n+    max-width: none;\r\n }\r\n \r\n /* Right Profile */\r\n .private-notification{\r\n"
+                },
+                {
+                    "date": 1781307029372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     background-color: rgba(0, 47, 155);\r\n-    margin: 0 20rem 0 20rem;\r\n     height: 10rem;\r\n }\r\n \r\n #options{\r\n"
+                },
+                {
+                    "date": 1781307036218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     background-color: rgba(0, 47, 155);\r\n+    width: 10rem;\r\n     height: 10rem;\r\n }\r\n \r\n #options{\r\n"
+                },
+                {
+                    "date": 1781307053870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n .top-header{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n+    justify-self: center;\r\n     background-color: rgba(0, 47, 155);\r\n     width: 10rem;\r\n     height: 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1781307062684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     justify-self: center;\r\n     background-color: rgba(0, 47, 155);\r\n-    width: 10rem;\r\n+    width: 40rem;\r\n     height: 10rem;\r\n }\r\n \r\n #options{\r\n"
+                },
+                {
+                    "date": 1781307069074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     justify-self: center;\r\n     background-color: rgba(0, 47, 155);\r\n-    width: 40rem;\r\n+    width: 75rem;\r\n     height: 10rem;\r\n }\r\n \r\n #options{\r\n"
+                },
+                {
+                    "date": 1781307100581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     justify-content: space-between;\r\n     align-items: flex-end;\r\n     justify-self: center;\r\n     background-color: rgba(0, 47, 155);\r\n+    justify-self: center;\r\n     width: 75rem;\r\n     height: 10rem;\r\n }\r\n \r\n@@ -66,9 +67,11 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     align-items: center;\r\n     background-color: rgba(99, 152, 203);\r\n-    margin: 0 20rem 0 20rem;\r\n+    justify-self: center;\r\n+    width: 75rem;\r\n+    height: 10rem;\r\n     padding: 0.1rem 3rem 0.1rem 3rem;\r\n     height: 1.75rem;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1781307115657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,8 @@\n     align-items: center;\r\n     background-color: rgba(99, 152, 203);\r\n     justify-self: center;\r\n     width: 75rem;\r\n-    height: 10rem;\r\n     padding: 0.1rem 3rem 0.1rem 3rem;\r\n     height: 1.75rem;\r\n }\r\n \r\n@@ -87,8 +86,11 @@\n     align-items: center;\r\n     background-color: rgb(255, 255, 255);\r\n     margin: 0 20rem 0 20rem;\r\n     padding: 1rem 3rem 1rem 3rem;\r\n+    justify-self: center;\r\n+    width: 75rem;\r\n+    height: 10rem;\r\n     height: 100%;\r\n }\r\n \r\n /* Left Profile */\r\n"
+                },
+                {
+                    "date": 1781311655767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,12 @@\n     max-height: 10rem;\r\n     max-width: none;\r\n }\r\n \r\n+.profile-name{\r\n+    font-weight: bolder;\r\n+}\r\n+\r\n /* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 3px;\r\n"
+                },
+                {
+                    "date": 1781311702586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,9 @@\n     height: 100%;\r\n }\r\n \r\n /* Left Profile */\r\n+\r\n .slimeball{\r\n     max-height: 10rem;\r\n     max-width: none;\r\n }\r\n"
+                },
+                {
+                    "date": 1781311777607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,14 @@\n .profile-name{\r\n     font-weight: bolder;\r\n }\r\n \r\n+.contact-section{\r\n+    border-style: solid;\r\n+    border-width: 1rem;\r\n+    border-color:rgba(99, 152, 203);\r\n+}\r\n+\r\n /* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 3px;\r\n"
+                },
+                {
+                    "date": 1781311785394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n }\r\n \r\n .contact-section{\r\n     border-style: solid;\r\n-    border-width: 1rem;\r\n+    border-width: 0.3rem;\r\n     border-color:rgba(99, 152, 203);\r\n }\r\n \r\n /* Right Profile */\r\n"
+                },
+                {
+                    "date": 1781311900807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,12 +105,16 @@\n }\r\n \r\n .contact-section{\r\n     border-style: solid;\r\n-    border-width: 0.3rem;\r\n+    border-width: 0.15rem;\r\n     border-color:rgba(99, 152, 203);\r\n }\r\n \r\n+.contact-header{\r\n+    background-color: rgba(99, 152, 203);\r\n+}\r\n+\r\n /* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 3px;\r\n"
+                },
+                {
+                    "date": 1781312095384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,8 +113,13 @@\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n }\r\n \r\n+.contact-title{\r\n+    font-weight: bolder;\r\n+    color: white;\r\n+}\r\n+\r\n /* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 3px;\r\n"
+                },
+                {
+                    "date": 1781312110407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,8 +111,9 @@\n }\r\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n+    padding: 1rem;\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312116180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n-    padding: 1rem;\r\n+    padding:  0 0 0 1rem;\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312128279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,9 @@\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n     padding:  0 0 0 1rem;\r\n+    margin:0;\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312144430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,10 +111,10 @@\n }\r\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n-    padding:  0 0 0 1rem;\r\n-    margin:0;\r\n+    padding: 0 0 0 1rem;\r\n+    height: 100%\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312151373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,8 @@\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n     padding: 0 0 0 1rem;\r\n-    height: 100%\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312335205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,9 @@\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n     padding: 0 0 0 1rem;\r\n+    height:1rem;\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312340608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,8 @@\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n     padding: 0 0 0 1rem;\r\n-    height:1rem;\r\n }\r\n \r\n .contact-title{\r\n     font-weight: bolder;\r\n"
+                },
+                {
+                    "date": 1781312371634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,11 @@\n     height: 100%;\r\n }\r\n \r\n /* Left Profile */\r\n+.left-profile{\r\n+    width:40%;\r\n+}\r\n \r\n .slimeball{\r\n     max-height: 10rem;\r\n     max-width: none;\r\n"
+                },
+                {
+                    "date": 1781312408456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,164 @@\n+*, *::before, *::after {\r\n+    box-sizing: border-box;\r\n+    font-family: 'Veranda', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n+}\r\n+\r\n+body {\r\n+\tmargin: 0;\r\n+ \tbackground-color: rgb(229, 229, 229)\r\n+}\r\n+\r\n+/* Styling for the top header */\r\n+.top-header{\r\n+    display: flex;\r\n+    justify-content: space-between;\r\n+    align-items: flex-end;\r\n+    justify-self: center;\r\n+    background-color: rgba(0, 47, 155);\r\n+    justify-self: center;\r\n+    width: 75rem;\r\n+    height: 10rem;\r\n+}\r\n+\r\n+#options{\r\n+    margin: .5rem 2rem 0.5rem 1rem;\r\n+    border-radius: .3rem;\r\n+}\r\n+\r\n+.search-bar{\r\n+    display: flex;\r\n+    align-items: flex-end;\r\n+    flex-direction: row;\r\n+    width: 100%;\r\n+    margin: .5rem 2rem 0.5rem 1rem;\r\n+}\r\n+\r\n+.search-input{\r\n+    border-radius: .3rem;\r\n+    width: 100%;\r\n+    height: 30px;\r\n+}\r\n+\r\n+#search-select{\r\n+    border-radius: .3rem;\r\n+    width: 5rem;\r\n+    height: 25px;\r\n+    margin: 0 .2rem;\r\n+}\r\n+\r\n+.search-btn{\r\n+    height: 25px;\r\n+    margin: 0 .2rem;\r\n+}\r\n+\r\n+.search-btn{\r\n+    border: 1px solid #777;\r\n+    background-color: #f8f8f8;\r\n+    border-radius: .3rem;\r\n+    cursor: pointer;\r\n+}\r\n+\r\n+.powered-by-google{\r\n+    max-height: 30px;\r\n+}\r\n+\r\n+/* Styling for the Bottom Header */\r\n+.bottom-header{\r\n+    display: flex;\r\n+    justify-content: space-around;\r\n+    align-items: center;\r\n+    background-color: rgba(99, 152, 203);\r\n+    justify-self: center;\r\n+    width: 75rem;\r\n+    padding: 0.1rem 3rem 0.1rem 3rem;\r\n+    height: 1.75rem;\r\n+}\r\n+\r\n+.banner-buttons{\r\n+    text-decoration: none;\r\n+    color: #f8f8f8;\r\n+    font-size: 1rem;\r\n+}\r\n+\r\n+/* Styling for the actual page. */\r\n+.profile{\r\n+    display: flex;\r\n+    align-items: center;\r\n+    background-color: rgb(255, 255, 255);\r\n+    margin: 0 20rem 0 20rem;\r\n+    padding: 1rem 3rem 1rem 3rem;\r\n+    justify-self: center;\r\n+    width: 75rem;\r\n+    height: 10rem;\r\n+    height: 100%;\r\n+}\r\n+\r\n+/* Left Profile */\r\n+.left-profile{\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    width: 40%;\r\n+}\r\n+\r\n+.slimeball{\r\n+    max-height: 10rem;\r\n+    max-width: none;\r\n+}\r\n+\r\n+.profile-name{\r\n+    font-weight: bolder;\r\n+}\r\n+\r\n+.contact-section{\r\n+    border-style: solid;\r\n+    border-width: 0.15rem;\r\n+    border-color:rgba(99, 152, 203);\r\n+}\r\n+\r\n+.contact-header{\r\n+    background-color: rgba(99, 152, 203);\r\n+    padding: 0 0 0 1rem;\r\n+}\r\n+\r\n+.contact-title{\r\n+    font-weight: bolder;\r\n+    color: white;\r\n+}\r\n+\r\n+/* Right Profile */\r\n+.private-notification{\r\n+    border-style: solid;\r\n+    border-width: 3px;\r\n+    border-color: #000000;\r\n+    padding: .25rem;\r\n+    word-wrap: normal;\r\n+    width: 10rem;\r\n+}\r\n+\r\n+.private-text{\r\n+    font-weight: bolder;\r\n+}\r\n+\r\n+/* Styling for Page Footer*/\r\n+.top-footer{\r\n+    display: flex;\r\n+    flex-direction: row;\r\n+    align-items: center;\r\n+    justify-content: center;\r\n+    margin-bottom: 30px;\r\n+}\r\n+\r\n+.footer-buttons{\r\n+    color: rgba(0, 47, 155);\r\n+    padding: 5px;\r\n+    font-size: 1rem;\r\n+}\r\n+\r\n+.footer{\r\n+\tmargin-bottom: .375rem;\r\n+\tmargin-top: .375rem;\r\n+\ttext-align: center;\r\n+\tcolor: #000000;\r\n+\tfont-size: 0.75rem;\r\n+\tpadding: 0 .0625rem .0625rem .3125rem;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1781312416000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,167 +160,5 @@\n \ttext-align: center;\r\n \tcolor: #000000;\r\n \tfont-size: 0.75rem;\r\n \tpadding: 0 .0625rem .0625rem .3125rem;\r\n-}\n-*, *::before, *::after {\r\n-    box-sizing: border-box;\r\n-    font-family: 'Veranda', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n-}\r\n-\r\n-body {\r\n-\tmargin: 0;\r\n- \tbackground-color: rgb(229, 229, 229)\r\n-}\r\n-\r\n-/* Styling for the top header */\r\n-.top-header{\r\n-    display: flex;\r\n-    justify-content: space-between;\r\n-    align-items: flex-end;\r\n-    justify-self: center;\r\n-    background-color: rgba(0, 47, 155);\r\n-    justify-self: center;\r\n-    width: 75rem;\r\n-    height: 10rem;\r\n-}\r\n-\r\n-#options{\r\n-    margin: .5rem 2rem 0.5rem 1rem;\r\n-    border-radius: .3rem;\r\n-}\r\n-\r\n-.search-bar{\r\n-    display: flex;\r\n-    align-items: flex-end;\r\n-    flex-direction: row;\r\n-    width: 100%;\r\n-    margin: .5rem 2rem 0.5rem 1rem;\r\n-}\r\n-\r\n-.search-input{\r\n-    border-radius: .3rem;\r\n-    width: 100%;\r\n-    height: 30px;\r\n-}\r\n-\r\n-#search-select{\r\n-    border-radius: .3rem;\r\n-    width: 5rem;\r\n-    height: 25px;\r\n-    margin: 0 .2rem;\r\n-}\r\n-\r\n-.search-btn{\r\n-    height: 25px;\r\n-    margin: 0 .2rem;\r\n-}\r\n-\r\n-.search-btn{\r\n-    border: 1px solid #777;\r\n-    background-color: #f8f8f8;\r\n-    border-radius: .3rem;\r\n-    cursor: pointer;\r\n-}\r\n-\r\n-.powered-by-google{\r\n-    max-height: 30px;\r\n-}\r\n-\r\n-/* Styling for the Bottom Header */\r\n-.bottom-header{\r\n-    display: flex;\r\n-    justify-content: space-around;\r\n-    align-items: center;\r\n-    background-color: rgba(99, 152, 203);\r\n-    justify-self: center;\r\n-    width: 75rem;\r\n-    padding: 0.1rem 3rem 0.1rem 3rem;\r\n-    height: 1.75rem;\r\n-}\r\n-\r\n-.banner-buttons{\r\n-    text-decoration: none;\r\n-    color: #f8f8f8;\r\n-    font-size: 1rem;\r\n-}\r\n-\r\n-/* Styling for the actual page. */\r\n-.profile{\r\n-    display: flex;\r\n-    align-items: center;\r\n-    background-color: rgb(255, 255, 255);\r\n-    margin: 0 20rem 0 20rem;\r\n-    padding: 1rem 3rem 1rem 3rem;\r\n-    justify-self: center;\r\n-    width: 75rem;\r\n-    height: 10rem;\r\n-    height: 100%;\r\n-}\r\n-\r\n-/* Left Profile */\r\n-.left-profile{\r\n-    width:40%;\r\n-}\r\n-\r\n-.slimeball{\r\n-    max-height: 10rem;\r\n-    max-width: none;\r\n-}\r\n-\r\n-.profile-name{\r\n-    font-weight: bolder;\r\n-}\r\n-\r\n-.contact-section{\r\n-    border-style: solid;\r\n-    border-width: 0.15rem;\r\n-    border-color:rgba(99, 152, 203);\r\n-}\r\n-\r\n-.contact-header{\r\n-    background-color: rgba(99, 152, 203);\r\n-    padding: 0 0 0 1rem;\r\n-}\r\n-\r\n-.contact-title{\r\n-    font-weight: bolder;\r\n-    color: white;\r\n-}\r\n-\r\n-/* Right Profile */\r\n-.private-notification{\r\n-    border-style: solid;\r\n-    border-width: 3px;\r\n-    border-color: #000000;\r\n-    padding: .25rem;\r\n-    word-wrap: normal;\r\n-    width: 10rem;\r\n-}\r\n-\r\n-.private-text{\r\n-    font-weight: bolder;\r\n-}\r\n-\r\n-/* Styling for Page Footer*/\r\n-.top-footer{\r\n-    display: flex;\r\n-    flex-direction: row;\r\n-    align-items: center;\r\n-    justify-content: center;\r\n-    margin-bottom: 30px;\r\n-}\r\n-\r\n-.footer-buttons{\r\n-    color: rgba(0, 47, 155);\r\n-    padding: 5px;\r\n-    font-size: 1rem;\r\n-}\r\n-\r\n-.footer{\r\n-\tmargin-bottom: .375rem;\r\n-\tmargin-top: .375rem;\r\n-\ttext-align: center;\r\n-\tcolor: #000000;\r\n-\tfont-size: 0.75rem;\r\n-\tpadding: 0 .0625rem .0625rem .3125rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1781312428981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,8 @@\n \r\n /* Left Profile */\r\n .left-profile{\r\n     display: flex;\r\n-    flex-direction: column;\r\n     width: 40%;\r\n }\r\n \r\n .slimeball{\r\n"
+                },
+                {
+                    "date": 1781312435591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,8 +95,9 @@\n \r\n /* Left Profile */\r\n .left-profile{\r\n     display: flex;\r\n+    flex-direction: column;\r\n     width: 40%;\r\n }\r\n \r\n .slimeball{\r\n"
+                },
+                {
+                    "date": 1781315212069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,13 @@\n     font-weight: bolder;\r\n     color: white;\r\n }\r\n \r\n+.contact-links{\r\n+    height:12.5%;\r\n+    width: 12.5%;\r\n+}\r\n+\r\n /* Right Profile */\r\n .private-notification{\r\n     border-style: solid;\r\n     border-width: 3px;\r\n"
+                },
+                {
+                    "date": 1781315247409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,12 @@\n     font-weight: bolder;\r\n     color: white;\r\n }\r\n \r\n+.contact-info{\r\n+    display: flex;\r\n+}\r\n+\r\n .contact-links{\r\n     height:12.5%;\r\n     width: 12.5%;\r\n }\r\n"
+                },
+                {
+                    "date": 1781315258413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n }\r\n \r\n .contact-info{\r\n     display: flex;\r\n+    flex-direction: column;\r\n }\r\n \r\n .contact-links{\r\n     height:12.5%;\r\n"
+                },
+                {
+                    "date": 1781315272670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,9 @@\n \r\n .contact-info{\r\n     display: flex;\r\n     flex-direction: column;\r\n+    flex-wrap: wrap;\r\n }\r\n \r\n .contact-links{\r\n     height:12.5%;\r\n"
+                },
+                {
+                    "date": 1781315283820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,9 @@\n .contact-section{\r\n     border-style: solid;\r\n     border-width: 0.15rem;\r\n     border-color:rgba(99, 152, 203);\r\n+    width: 75%;\r\n }\r\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n"
+                },
+                {
+                    "date": 1781315293391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,8 +113,9 @@\n     border-style: solid;\r\n     border-width: 0.15rem;\r\n     border-color:rgba(99, 152, 203);\r\n     width: 75%;\r\n+    height: 10rem;\r\n }\r\n \r\n .contact-header{\r\n     background-color: rgba(99, 152, 203);\r\n"
+                },
+                {
+                    "date": 1781315316298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,8 +135,9 @@\n \r\n .contact-links{\r\n     height:12.5%;\r\n     width: 12.5%;\r\n+    font-size: 8px;\r\n }\r\n \r\n /* Right Profile */\r\n .private-notification{\r\n"
                 }
             ],
             "date": 1781223001018,

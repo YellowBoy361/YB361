@@ -24,7 +24,7 @@ body {
 }
 
 .header-logo{
-	height: 5rem;
+	height: 10vh;
 }
 
 .header-title {
@@ -32,7 +32,7 @@ body {
 	overflow: hidden;
 	text-decoration: none;
 	color: #D1a054;
-	font-size: 7rem;
+	font-size: 10vh;
 	transition: color 150ms;
 }
 
